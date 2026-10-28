@@ -3,7 +3,7 @@
 **Control your Philips Hue lights from a Nintendo 3DS.**
 Rooms, colour and brightness presets, and a party mode that makes your lamps dance to music through the 3DS microphone.
 
-![PhilipsHue3DS running on a New 3DS](docs/screenshot.png)
+![PhilipsHue3DS](ciabuild/banner.png)
 
 ## Features
 
@@ -23,10 +23,11 @@ Rooms, colour and brightness presets, and a party mode that makes your lamps dan
 
 ## Install
 
-1. Download the latest release from the [Releases](../../releases) page.
-2. Install `PhilipsHue3DS.cia` with FBI, **or** copy the `.3dsx` to `sdmc:/3ds/` and launch it from the Homebrew Launcher.
-3. Open the app and follow the setup screen.
-4. Press the link button on your Hue Bridge when asked. The pairing is saved on the SD card.
+1. Download `PhilipsHue3DS.zip` from the [Releases](../../releases) page.
+2. Unzip it onto your SD card. It contains `cia/hue3ds.cia` and `3ds/hue3ds.3dsx`.
+3. Install `cia/hue3ds.cia` with FBI so it appears on your HOME Menu, **or** launch `hue3ds.3dsx` from the Homebrew Launcher.
+4. Open the app and follow the setup screen.
+5. Press the link button on your Hue Bridge when asked. The pairing is saved on the SD card.
 
 ## Controls
 
@@ -46,7 +47,7 @@ Requires [devkitPro](https://devkitpro.org/) with devkitARM, libctru and citro2d
 
 ```sh
 make             # builds the .3dsx
-./build-cia.sh   # builds the .cia (needs makerom and bannertool)
+./build-cia.sh   # builds hue3ds.cia (needs makerom and bannertool in PATH)
 ```
 
 ## Notes
@@ -62,6 +63,10 @@ make             # builds the .3dsx
 ### How AI was used
 
 The code was largely written with Claude, Anthropic's AI assistant. Ryan came up with the project and its features, built every version himself, and tested it on his own New 3DS and Hue lights.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
 
 ---
 

@@ -5,3 +5,5 @@ build/
 *.elf
 *.bnr
 .DS_Store
+ciabuild/banner.bnr
+ciabuild/icon.icn

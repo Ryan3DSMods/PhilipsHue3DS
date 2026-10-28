@@ -1,0 +1,20 @@
+BasicInfo:
+  Title                   : Hue3DS
+  ProductCode             : CTR-P-HUE3
+  Logo                    : Homebrew
+
+TitleInfo:
+  UniqueId                : 0x0ff4e5
+  Category                : Application
+
+Option:
+  UseOnSD                 : true
+  FreeProductCode         : true
+  MediaFootPadding        : false
+  EnableCrypt             : false
+  EnableCompress          : true
+
+SystemControlInfo:
+  SaveDataSize: 0KB
+  RemasterVersion: 0
+  StackSize: 0x40000
