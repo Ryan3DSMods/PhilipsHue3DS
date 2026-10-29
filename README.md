@@ -57,7 +57,7 @@ make             # builds the .3dsx
 
 ## Credits
 
-- Made by **Ryan**, [Ryan3DSMods on YouTube](https://www.youtube.com/@Ryan3DSMods)
+- Made by **Ryan**: [YouTube](https://www.youtube.com/@Ryan3DSMods) · [TikTok](https://www.tiktok.com/@ryan3dsmods)
 - Built with [devkitPro](https://devkitpro.org/) (libctru, citro2d, citro3d)
 
 ### How AI was used
